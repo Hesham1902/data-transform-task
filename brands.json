@@ -1,0 +1,62 @@
+[
+  {
+    "brandName": "Klein Group",
+    "yearFounded": 1737,
+    "headquarters": "North Lailafort",
+    "numberOfLocations": 8
+  },
+  {
+    "brandName": "Hettinger Group",
+    "yearFounded": 1937,
+    "headquarters": "Revaville",
+    "numberOfLocations": 3
+  },
+  {
+    "brandName": "O'Kon, Stroman and Daugherty",
+    "yearFounded": 1659,
+    "headquarters": "Colton",
+    "numberOfLocations": 8
+  },
+  {
+    "brandName": "Reichert, Stoltenberg and Bartoletti",
+    "yearFounded": 1657,
+    "headquarters": "Jaylantown",
+    "numberOfLocations": 4
+  },
+  {
+    "brandName": "Zemlak LLC",
+    "yearFounded": 1911,
+    "headquarters": "Casper",
+    "numberOfLocations": 6
+  },
+  {
+    "brandName": "Gerhold - Harvey",
+    "yearFounded": 1866,
+    "headquarters": "Santa Monica",
+    "numberOfLocations": 7
+  },
+  {
+    "brandName": "Kunde - Barton",
+    "yearFounded": 1765,
+    "headquarters": "Ondrickahaven",
+    "numberOfLocations": 5
+  },
+  {
+    "brandName": "Krajcik Inc",
+    "yearFounded": 1895,
+    "headquarters": "West Kaley",
+    "numberOfLocations": 6
+  },
+  {
+    "brandName": "Dare - Huels",
+    "yearFounded": 1733,
+    "headquarters": "Brekkeville",
+    "numberOfLocations": 1
+  },
+  {
+    "brandName": "Lind Group",
+    "yearFounded": 2001,
+    "headquarters": "West Martinshire",
+    "numberOfLocations": 9
+  }
+]
