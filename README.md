@@ -26,7 +26,8 @@ The project involves three main steps:
 ## Prerequisites
 
 - Node.js (v14.x or higher)
-- MongoDB (v4.x or higher)
+- mongoose (v8.x or higher)
+- faker (v8.x or higher)
 
 ## Installation
 
