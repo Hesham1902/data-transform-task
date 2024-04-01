@@ -12,8 +12,6 @@ This project is designed to transform and extend a MongoDB collection of  brands
 - [Data Seeding](#data-seeding)
 - [Exporting the Brands Collection](#exporting-the-brands-collection)
 - [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
