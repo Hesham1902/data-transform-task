@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/transform.js",
     "seed:insert": "node dist/seeder.js -i",
-    "seed:delete": "node dist/seeder.js -d"
+    "seed:delete": "node dist/seeder.js -d",
+    "start": "npm run seed:insert && node dist/transform.js",
+    "generate:new": "node dist/faker.js"
   },
   "keywords": [],
   "author": "",

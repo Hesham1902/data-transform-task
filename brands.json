@@ -1,62 +1,62 @@
 [
   {
-    "brandName": "Klein Group",
-    "yearFounded": 1737,
-    "headquarters": "North Lailafort",
-    "numberOfLocations": 8
+    "brandName": "Murray - Stroman",
+    "yearFounded": 1671,
+    "headquarters": "Kovacekshire",
+    "numberOfLocations": 2
   },
   {
-    "brandName": "Hettinger Group",
-    "yearFounded": 1937,
-    "headquarters": "Revaville",
-    "numberOfLocations": 3
-  },
-  {
-    "brandName": "O'Kon, Stroman and Daugherty",
-    "yearFounded": 1659,
-    "headquarters": "Colton",
-    "numberOfLocations": 8
-  },
-  {
-    "brandName": "Reichert, Stoltenberg and Bartoletti",
-    "yearFounded": 1657,
-    "headquarters": "Jaylantown",
-    "numberOfLocations": 4
-  },
-  {
-    "brandName": "Zemlak LLC",
-    "yearFounded": 1911,
-    "headquarters": "Casper",
-    "numberOfLocations": 6
-  },
-  {
-    "brandName": "Gerhold - Harvey",
-    "yearFounded": 1866,
-    "headquarters": "Santa Monica",
-    "numberOfLocations": 7
-  },
-  {
-    "brandName": "Kunde - Barton",
-    "yearFounded": 1765,
-    "headquarters": "Ondrickahaven",
+    "brandName": "Grant Inc",
+    "yearFounded": 1976,
+    "headquarters": "Augusta-Richmond County",
     "numberOfLocations": 5
   },
   {
-    "brandName": "Krajcik Inc",
-    "yearFounded": 1895,
-    "headquarters": "West Kaley",
-    "numberOfLocations": 6
+    "brandName": "Gleichner - Mosciski",
+    "yearFounded": 1897,
+    "headquarters": "Lake Avery",
+    "numberOfLocations": 10
   },
   {
-    "brandName": "Dare - Huels",
-    "yearFounded": 1733,
-    "headquarters": "Brekkeville",
+    "brandName": "Paucek, Donnelly and Lesch",
+    "yearFounded": 1987,
+    "headquarters": "Janetshire",
     "numberOfLocations": 1
   },
   {
-    "brandName": "Lind Group",
-    "yearFounded": 2001,
-    "headquarters": "West Martinshire",
+    "brandName": "Romaguera Group",
+    "yearFounded": 2024,
+    "headquarters": "Pinellas Park",
+    "numberOfLocations": 10
+  },
+  {
+    "brandName": "Franey, Moore and Tremblay",
+    "yearFounded": 1685,
+    "headquarters": "South Claudieport",
+    "numberOfLocations": 5
+  },
+  {
+    "brandName": "Kris - McCullough",
+    "yearFounded": 1708,
+    "headquarters": "New Tannerhaven",
+    "numberOfLocations": 5
+  },
+  {
+    "brandName": "Pacocha - Prosacco",
+    "yearFounded": 1997,
+    "headquarters": "Jaquanton",
+    "numberOfLocations": 9
+  },
+  {
+    "brandName": "Rodriguez, Champlin and Walker",
+    "yearFounded": 1634,
+    "headquarters": "South Marty",
+    "numberOfLocations": 3
+  },
+  {
+    "brandName": "Morissette - Cormier",
+    "yearFounded": 1764,
+    "headquarters": "New Clemmie",
     "numberOfLocations": 9
   }
 ]
