@@ -13,7 +13,9 @@ exports.validateAndLogErrors = void 0;
 function validateAndLogErrors(brand, errors) {
     return __awaiter(this, void 0, void 0, function* () {
         const validationError = brand.validateSync();
+        console.log(validationError);
         if (validationError) {
+            console.log(validationError);
             const paths = Object.keys(brand.schema.paths);
             paths.forEach((path) => {
                 if (validationError.errors[path]) {

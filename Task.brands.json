@@ -1,277 +1,98 @@
-[{
-  "_id": {
-    "$oid": "66069ff93007b006635c0245"
+[
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c0245"
+    },
+    "brandName": "Ward, Hand and Ortiz",
+    "yearCreated": "1970",
+    "headquarters": "Jastside",
+    "numberOfLocations": 2132
   },
-  "brandName": "Ward, Hand and Ortiz",
-  "headquarters": "Jastside",
-  "numberOfLocations": 2132,
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.785Z"
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c0246"
+    },
+    "brandName": "Ergonomic Frozen Bacon",
+    "yearFounded": "decet",
+    "headquarters": "Gavinstead",
+    "numberOfLocations": "tantillus"
   },
-  "yearFounded": 1970
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c0246"
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c0247"
+    },
+    "brandName": "Breitenberg, Greenholt and Ledner",
+    "yearFounded": 1982,
+    "headquarters": "Fort Lenna",
+    "numberOfLocations": 1000
   },
-  "brandName": "Ergonomic Frozen Bacon",
-  "yearFounded": 1600,
-  "headquarters": "Gavinstead",
-  "numberOfLocations": 1,
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c0248"
+    },
+    "brandName": "Modern Granite Fish",
+    "yearFounded": null,
+    "yearCreated": "1970",
+    "headquarters": "Kundebury",
+    "numberOfLocations": "perspiciatis"
+  },
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c0249"
+    },
+    "brandName": "Gorgeous Granite Pizza",
+    "headquarters": "Jonesborough",
+    "numberOfLocations": "calculus",
+    "yearsFounded": "1980"
+  },
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c024a"
+    },
+    "brandName": "Oriental Plastic Pants",
+    "yearFounded": null,
+    "yearCreated": 1970,
+    "headquarters": "Wardfort",
+    "numberOfLocations": "benevolentia"
+  },
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c024b"
+    },
+    "brandName": "Refined Granite Towels",
+    "yearFounded": "clam",
+    "headquarters": "Lemkeland",
+    "numberOfLocations": "cupressus"
+  },
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c024c"
+    },
+    "brandName": "Corkery Inc",
+    "yearFounded": 1935,
+    "numberOfLocations": 9200,
+    "hqAddress": "DuBuqueburgh",
+    "brand": {}
+  },
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c024d"
+    },
+    "yearFounded": "volubilis",
+    "headquarters": "West Mylesboro",
+    "numberOfLocations": "claudeo",
+    "brand": {
+      "name": "Licensed Concrete Tuna"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66069ff93007b006635c024e"
+    },
+    "brandName": "Generic Cotton Pizza",
+    "yearFounded": "studio",
+    "headquarters": "North Ralphport",
+    "numberOfLocations": "contego",
+    "brand": ""
   }
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c0247"
-  },
-  "brandName": "Breitenberg, Greenholt and Ledner",
-  "yearFounded": 1982,
-  "headquarters": "Fort Lenna",
-  "numberOfLocations": 1000
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c0248"
-  },
-  "brandName": "Modern Granite Fish",
-  "yearFounded": 1970,
-  "headquarters": "Kundebury",
-  "numberOfLocations": 1,
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c0249"
-  },
-  "brandName": "Gorgeous Granite Pizza",
-  "headquarters": "Jonesborough",
-  "numberOfLocations": 1,
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
-  },
-  "yearFounded": 1980
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c024a"
-  },
-  "brandName": "Oriental Plastic Pants",
-  "yearFounded": 1970,
-  "headquarters": "Wardfort",
-  "numberOfLocations": 1,
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c024b"
-  },
-  "brandName": "Refined Granite Towels",
-  "yearFounded": 1600,
-  "headquarters": "Lemkeland",
-  "numberOfLocations": 1,
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c024c"
-  },
-  "brandName": "Corkery Inc",
-  "yearFounded": 1935,
-  "numberOfLocations": 9200,
-  "headquarters": "DuBuqueburgh",
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c024d"
-  },
-  "yearFounded": 1600,
-  "headquarters": "West Mylesboro",
-  "numberOfLocations": 1,
-  "brandName": "Licensed Concrete Tuna",
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "66069ff93007b006635c024e"
-  },
-  "brandName": "Generic Cotton Pizza",
-  "yearFounded": 1600,
-  "headquarters": "North Ralphport",
-  "numberOfLocations": 1,
-  "updatedAt": {
-    "$date": "2024-04-01T05:12:27.786Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc703"
-  },
-  "brandName": "Klein Group",
-  "yearFounded": 1737,
-  "headquarters": "North Lailafort",
-  "numberOfLocations": 8,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.440Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.440Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc704"
-  },
-  "brandName": "Hettinger Group",
-  "yearFounded": 1937,
-  "headquarters": "Revaville",
-  "numberOfLocations": 3,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.440Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.440Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc705"
-  },
-  "brandName": "O'Kon, Stroman and Daugherty",
-  "yearFounded": 1659,
-  "headquarters": "Colton",
-  "numberOfLocations": 8,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.441Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.441Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc706"
-  },
-  "brandName": "Reichert, Stoltenberg and Bartoletti",
-  "yearFounded": 1657,
-  "headquarters": "Jaylantown",
-  "numberOfLocations": 4,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.441Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.441Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc707"
-  },
-  "brandName": "Zemlak LLC",
-  "yearFounded": 1911,
-  "headquarters": "Casper",
-  "numberOfLocations": 6,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.441Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.441Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc708"
-  },
-  "brandName": "Gerhold - Harvey",
-  "yearFounded": 1866,
-  "headquarters": "Santa Monica",
-  "numberOfLocations": 7,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc709"
-  },
-  "brandName": "Kunde - Barton",
-  "yearFounded": 1765,
-  "headquarters": "Ondrickahaven",
-  "numberOfLocations": 5,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc70a"
-  },
-  "brandName": "Krajcik Inc",
-  "yearFounded": 1895,
-  "headquarters": "West Kaley",
-  "numberOfLocations": 6,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc70b"
-  },
-  "brandName": "Dare - Huels",
-  "yearFounded": 1733,
-  "headquarters": "Brekkeville",
-  "numberOfLocations": 1,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "660a5bb542b8546e24ebc70c"
-  },
-  "brandName": "Lind Group",
-  "yearFounded": 2001,
-  "headquarters": "West Martinshire",
-  "numberOfLocations": 9,
-  "__v": 0,
-  "createdAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-01T07:01:09.442Z"
-  }
-}]
+]

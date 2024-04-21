@@ -38,6 +38,7 @@ export async function fixBrandName(brand: IBrand): Promise<void> {
     if (brand.get("brand").name) {
       console.log(brand.get("brand").name);
       brand.brandName = brand.get("brand").name;
+      // brand.brandName = brand.get("brand").name ??
     }
   }
   brand.set("brand", undefined, { strict: false });

@@ -1,62 +1,62 @@
 [
   {
-    "brandName": "Murray - Stroman",
-    "yearFounded": 1671,
-    "headquarters": "Kovacekshire",
-    "numberOfLocations": 2
-  },
-  {
-    "brandName": "Grant Inc",
-    "yearFounded": 1976,
-    "headquarters": "Augusta-Richmond County",
-    "numberOfLocations": 5
-  },
-  {
-    "brandName": "Gleichner - Mosciski",
-    "yearFounded": 1897,
-    "headquarters": "Lake Avery",
-    "numberOfLocations": 10
-  },
-  {
-    "brandName": "Paucek, Donnelly and Lesch",
-    "yearFounded": 1987,
-    "headquarters": "Janetshire",
-    "numberOfLocations": 1
-  },
-  {
-    "brandName": "Romaguera Group",
-    "yearFounded": 2024,
-    "headquarters": "Pinellas Park",
-    "numberOfLocations": 10
-  },
-  {
-    "brandName": "Franey, Moore and Tremblay",
-    "yearFounded": 1685,
-    "headquarters": "South Claudieport",
-    "numberOfLocations": 5
-  },
-  {
-    "brandName": "Kris - McCullough",
-    "yearFounded": 1708,
-    "headquarters": "New Tannerhaven",
-    "numberOfLocations": 5
-  },
-  {
-    "brandName": "Pacocha - Prosacco",
-    "yearFounded": 1997,
-    "headquarters": "Jaquanton",
-    "numberOfLocations": 9
-  },
-  {
-    "brandName": "Rodriguez, Champlin and Walker",
-    "yearFounded": 1634,
-    "headquarters": "South Marty",
+    "brandName": "Kub LLC",
+    "yearFounded": 1842,
+    "headquarters": "South Whittier",
     "numberOfLocations": 3
   },
   {
-    "brandName": "Morissette - Cormier",
-    "yearFounded": 1764,
-    "headquarters": "New Clemmie",
+    "brandName": "Purdy, Dach and McDermott",
+    "yearFounded": 1784,
+    "headquarters": "Kreigerville",
+    "numberOfLocations": 8
+  },
+  {
+    "brandName": "Kreiger - Block",
+    "yearFounded": 1901,
+    "headquarters": "North Antwan",
+    "numberOfLocations": 7
+  },
+  {
+    "brandName": "Daugherty - Turcotte",
+    "yearFounded": 1884,
+    "headquarters": "New Lucinda",
+    "numberOfLocations": 5
+  },
+  {
+    "brandName": "Bartoletti LLC",
+    "yearFounded": 1985,
+    "headquarters": "Caguas",
+    "numberOfLocations": 4
+  },
+  {
+    "brandName": "Kuphal, Jakubowski and Lueilwitz",
+    "yearFounded": 1741,
+    "headquarters": "Fort Cindybury",
+    "numberOfLocations": 10
+  },
+  {
+    "brandName": "Ratke - Ziemann",
+    "yearFounded": 1903,
+    "headquarters": "Mrazport",
     "numberOfLocations": 9
+  },
+  {
+    "brandName": "Krajcik and Sons",
+    "yearFounded": 2008,
+    "headquarters": "Canton",
+    "numberOfLocations": 9
+  },
+  {
+    "brandName": "Cummings, Powlowski and Zieme",
+    "yearFounded": 1670,
+    "headquarters": "Apple Valley",
+    "numberOfLocations": 3
+  },
+  {
+    "brandName": "Bogisich - Ziemann",
+    "yearFounded": 1869,
+    "headquarters": "Arcadia",
+    "numberOfLocations": 4
   }
 ]

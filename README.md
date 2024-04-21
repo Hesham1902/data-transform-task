@@ -1,6 +1,6 @@
-#  Brands Data Transformation and Seeding
+# Brands Data Transformation and Seeding
 
-This project is designed to transform and extend a MongoDB collection of  brands, addressing various inconsistencies and errors in the data. It also includes functionality to generate new seed data for the collection. The project is built using Node.js with TypeScript and Mongoose, leveraging Faker.js for data generation.
+This project is designed to transform and extend a MongoDB collection of brands, addressing various inconsistencies and errors in the data. It also includes functionality to generate new seed data for the collection. The project is built using Node.js with TypeScript and Mongoose, leveraging Faker.js for data generation.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This project is designed to transform and extend a MongoDB collection of  brands
 
 The project involves three main steps:
 
-1. **Data Transformation**: Transforming the provided MongoDB collection of  brands into a standardized format based on a given schema.
+1. **Data Transformation**: Transforming the provided MongoDB collection of brands into a standardized format based on a given schema.
 2. **Data Seeding**: Generating 10 new brand documents with correct schema adherence using Faker.js.
 3. **Exporting the Brands Collection**: Exporting the transformed and extended brands collection as a JSON file.
 
@@ -30,44 +30,50 @@ The project involves three main steps:
 ## Installation
 
 1. Clone the repository:
-   
+
 ```
   git clone https://github.com/Hesham1902/data-transform-task.git
 
 ```
+
 2. Navigate to the project directory:
-3. 
-```   
+3.
+
+```
   cd data-transform-task
 ```
 
 3. Install dependencies:
-   
+
 ```
   npm install
 
 ```
 
-## Usage  
+## Usage
 
 ### Scripts
 
 - This script is used to insert new brand data into the MongoDB database. It runs the seeder.js script with the -i flag, which triggers the data insertion process.
+
 ```
   npm run seed:insert
 ```
 
 - This script deletes all existing brand data from the MongoDB database. It runs the seeder.js script with the -d flag, which triggers the data deletion process.
+
 ```
   npm run seed:delete
 ```
 
 - This script generates new brand data using Faker.js and saves it to the MongoDB database. It's useful for extending the database with additional brand data.
+
 ```
   npm run generate:new
 ```
 
 To run the project, use the following command:
+
 ```
   npm run start
 ```
@@ -89,7 +95,3 @@ After transforming the data and seeding new data, the `brands` collection can be
 ## Documentation
 
 The project includes an Excel file documenting the seed data cases, explaining what differentiates each case.
-
-
-
-
