@@ -8,26 +8,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.validateAndLogErrors = void 0;
-function validateAndLogErrors(brand, errors) {
+const mongoose_1 = __importDefault(require("mongoose"));
+function connectToDatabase() {
     return __awaiter(this, void 0, void 0, function* () {
-        const validationError = brand.validateSync();
-        if (validationError) {
-            const paths = Object.keys(brand.schema.paths);
-            paths.forEach((path) => {
-                if (validationError.errors[path]) {
-                    errors.push({
-                        brandId: brand._id,
-                        path,
-                        message: validationError.errors[path].message,
-                    });
-                }
-            });
+        try {
+            yield mongoose_1.default.connect("mongodb://localhost:27017/Task");
         }
-        else {
-            console.log(`Validation for brand ${brand._id}: Valid`);
+        catch (err) {
+            throw new Error(`Error connecting to database: ${err.message}`);
         }
     });
 }
-exports.validateAndLogErrors = validateAndLogErrors;
+exports.default = connectToDatabase;

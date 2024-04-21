@@ -8,7 +8,8 @@
     "build": "tsc -p tsconfig.json",
     "seed:insert": "node dist/seeder.js -i",
     "seed:delete": "node dist/seeder.js -d",
-    "start": "npm run seed:insert && node dist/transform.js",
+    "seed:import": "node dist/seeder.js -import",
+    "start": "node dist/transform.js",
     "generate:new": "node dist/faker.js"
   },
   "keywords": [],
@@ -17,6 +18,7 @@
   "dependencies": {
     "@types/mongoose": "^5.11.97",
     "@types/node": "^20.12.2",
+    "exceljs": "^4.4.0",
     "mongoose": "^8.2.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"

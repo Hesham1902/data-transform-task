@@ -1,62 +1,62 @@
 [
   {
-    "brandName": "Kub LLC",
-    "yearFounded": 1842,
-    "headquarters": "South Whittier",
-    "numberOfLocations": 3
+    "brandName": "Brekke LLC",
+    "yearFounded": 1758,
+    "headquarters": "Dionboro",
+    "numberOfLocations": 9
   },
   {
-    "brandName": "Purdy, Dach and McDermott",
-    "yearFounded": 1784,
-    "headquarters": "Kreigerville",
-    "numberOfLocations": 8
+    "brandName": "Reichert, Ankunding and Donnelly",
+    "yearFounded": 1681,
+    "headquarters": "West Lia",
+    "numberOfLocations": 2
   },
   {
-    "brandName": "Kreiger - Block",
-    "yearFounded": 1901,
-    "headquarters": "North Antwan",
-    "numberOfLocations": 7
+    "brandName": "Orn, Fay and Mills",
+    "yearFounded": 2006,
+    "headquarters": "Legrosborough",
+    "numberOfLocations": 2
   },
   {
-    "brandName": "Daugherty - Turcotte",
-    "yearFounded": 1884,
-    "headquarters": "New Lucinda",
+    "brandName": "Howe - Beatty",
+    "yearFounded": 1910,
+    "headquarters": "Nicholeville",
+    "numberOfLocations": 6
+  },
+  {
+    "brandName": "Nienow - Keebler",
+    "yearFounded": 1973,
+    "headquarters": "Keyshawnburgh",
     "numberOfLocations": 5
   },
   {
-    "brandName": "Bartoletti LLC",
-    "yearFounded": 1985,
-    "headquarters": "Caguas",
+    "brandName": "Friesen - Greenfelder",
+    "yearFounded": 1953,
+    "headquarters": "Priscillafort",
+    "numberOfLocations": 6
+  },
+  {
+    "brandName": "Keebler - Effertz",
+    "yearFounded": 1869,
+    "headquarters": "East Grady",
+    "numberOfLocations": 2
+  },
+  {
+    "brandName": "Hagenes - Predovic",
+    "yearFounded": 2005,
+    "headquarters": "Treutelshire",
     "numberOfLocations": 4
   },
   {
-    "brandName": "Kuphal, Jakubowski and Lueilwitz",
-    "yearFounded": 1741,
-    "headquarters": "Fort Cindybury",
+    "brandName": "Weissnat - Feest",
+    "yearFounded": 1670,
+    "headquarters": "Zacharyfort",
     "numberOfLocations": 10
   },
   {
-    "brandName": "Ratke - Ziemann",
-    "yearFounded": 1903,
-    "headquarters": "Mrazport",
-    "numberOfLocations": 9
-  },
-  {
-    "brandName": "Krajcik and Sons",
-    "yearFounded": 2008,
-    "headquarters": "Canton",
-    "numberOfLocations": 9
-  },
-  {
-    "brandName": "Cummings, Powlowski and Zieme",
-    "yearFounded": 1670,
-    "headquarters": "Apple Valley",
-    "numberOfLocations": 3
-  },
-  {
-    "brandName": "Bogisich - Ziemann",
-    "yearFounded": 1869,
-    "headquarters": "Arcadia",
-    "numberOfLocations": 4
+    "brandName": "Rau - Kuvalis",
+    "yearFounded": 1628,
+    "headquarters": "East Margaretteberg",
+    "numberOfLocations": 5
   }
 ]

@@ -12,14 +12,37 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const transform_1 = require("./transform");
 const brands_schema_1 = require("./brands-schema");
 const fs_1 = __importDefault(require("fs"));
+const child_process_1 = require("child_process");
+const database_1 = __importDefault(require("./database"));
 // Read data from brands.json
-const brandsData = JSON.parse(fs_1.default.readFileSync("./brands.json").toString());
-(0, transform_1.connectToDatabase)();
+// const brandsData = JSON.parse(fs.readFileSync("./brands.json").toString());
+const readJsonFile = (filePath) => {
+    return new Promise((resolve, reject) => {
+        fs_1.default.readFile(filePath, (err, data) => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve(JSON.parse(data.toString()));
+        });
+    });
+};
+const importData = () => __awaiter(void 0, void 0, void 0, function* () {
+    const command = `mongoimport --db Task --collection brands --drop --jsonArray --file Task.brands.json`;
+    (0, child_process_1.exec)(command, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`Error executing mongoimport: ${error}`);
+            return;
+        }
+        console.log(`stdout: ${stdout}`);
+        console.log(`stderr: ${stderr}`);
+        process.exit();
+    });
+});
 // Insert data into DB
-const insertData = () => __awaiter(void 0, void 0, void 0, function* () {
+const insertData = (brandsData) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield brands_schema_1.Brand.insertMany(brandsData);
         console.log("Data Inserted");
@@ -40,13 +63,21 @@ const destroyData = () => __awaiter(void 0, void 0, void 0, function* () {
         console.log(error);
     }
 });
-// Check command-line arguments and execute accordingly
-if (process.argv[2] === "-i") {
-    insertData();
-}
-else if (process.argv[2] === "-d") {
-    destroyData();
-}
-else {
-    console.log("Please provide a valid argument: -i for insert or -d for delete.");
-}
+const main = () => __awaiter(void 0, void 0, void 0, function* () {
+    yield (0, database_1.default)();
+    // Check command-line arguments and execute accordingly
+    if (process.argv[2] === "-i") {
+        const brandsData = yield readJsonFile("./brands.json");
+        insertData(brandsData);
+    }
+    else if (process.argv[2] === "-d") {
+        destroyData();
+    }
+    else if (process.argv[2] === "-import") {
+        importData().catch(console.error);
+    }
+    else {
+        console.log("Please provide a valid argument: -i for insert or -d for delete -import for importing json file.");
+    }
+});
+main().catch(console.error);
